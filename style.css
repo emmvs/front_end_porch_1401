@@ -1,1 +1,60 @@
 /* TODO: design your profile with CSS */
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h2, h3 {
+  color: rgba(0, 0, 105, 0.5);
+}
+
+i {
+  color: rgb(0, 0, 105);
+  font-size: 40px;
+}
+
+.card {
+  background-color: white;
+  /* right, down, edges, color */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 50px;
+  border-radius: 5px;
+  margin: 26px 80px;
+  /* width: 80%; */
+}
+
+.avatar {
+  border-radius: 5px;
+  width: 240px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: lightskyblue;
+  color: white;
+  padding: 8px 16px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.list-block {
+  padding: 0;
+}
+
+.list-block li {
+  list-style-type: none;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+}

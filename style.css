@@ -25,7 +25,7 @@ i:hover {
   color: lightskyblue;
 }
 
-.card {
+.card-white {
   background-color: white;
   /* right, down, edges, color */
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
@@ -60,6 +60,10 @@ i:hover {
 
 .list-block li {
   list-style-type: none;
+}
+
+#list-two {
+  background-color: aliceblue;
 }
 
 .list-inline {

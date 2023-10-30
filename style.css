@@ -1,15 +1,12 @@
-/* TODO: design your profile with CSS */
+/* Styling of tags */
+
 body {
   background-color: rgb(240, 240, 240);
 }
 
-.container {
-  width: 700px;
-  margin: 0 auto;
-}
-
 h1 {
-  font-family: 'Luckiest Guy', cursive;
+  color: lightskyblue;
+  font-family: 'Major Mono Display', monospace;
 }
 
 h2, h3 {
@@ -25,6 +22,12 @@ i:hover {
   color: lightskyblue;
 }
 
+/* Styling of Classes */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 .card-white {
   background-color: white;
   /* right, down, edges, color */
@@ -33,6 +36,18 @@ i:hover {
   padding: 50px;
   border-radius: 5px;
   margin: 26px 0px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: lightskyblue;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: rgb(73, 127, 160);
 }
 
 .avatar {
@@ -64,6 +79,8 @@ i:hover {
 
 #list-two {
   background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .list-inline {
